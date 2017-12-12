@@ -15,6 +15,9 @@ client.on('message', message => {
     if (message.content === 'Ai-chan') {
         message.reply('Nandeshou?');
     }
+    if (message.content === 'fuck u ai-chan') {
+        message.reply('fuck u too, kanchou~');
+    }
 });
 
 // THIS  MUST  BE  THIS  WAY
