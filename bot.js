@@ -6,12 +6,15 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.reply('pong');
+    if (message.content === 'can u give me ur blessing?') {
+    	message.reply('ＢＬＥＳＳＩＮＧ〜');
   	}
     if (message.content === 'ai-chan') {
-    	message.reply('fuck u');
+    	message.reply('mm?');
   	}
+    if (message.content === 'Ai-chan') {
+        message.reply('Nandeshou?');
+    }
 });
 
 // THIS  MUST  BE  THIS  WAY
